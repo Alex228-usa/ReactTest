@@ -1,0 +1,45 @@
+{
+  "name": "menu",
+  "version": "1.0.0",
+  "description": "Customizable menu component for React applications",
+  "main": "src/App.js",
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "prop-types": "^15.6.0",
+    "classnames": "^2.2.5"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^4.5.1",
+    "css-loader": "^5.2.4",
+    "style-loader": "^2.0.0",
+    "webpack-dev-server": "^3.11.0",
+    "react-dnd": "^14.0.2",
+    "react-dnd-html5-backend": "^14.0.2"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alex228-usa/menu.git"
+  },
+  "keywords": [
+    "react",
+    "menu",
+    "component"
+  ],
+  "author": "Alikhan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alex228-usa/menu/issues"
+  },
+  "homepage": "https://github.com/alex228-usa/reacttest#readme"
+}
